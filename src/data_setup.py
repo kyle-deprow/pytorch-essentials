@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 NUM_WORKERS = os.cpu_count()
 
 def create_dataloaders(
-    train_dir: str, 
+    train_dir: str,
     test_dir: str, 
     transform: transforms.Compose, 
     batch_size: int, 
